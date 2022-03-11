@@ -17,13 +17,15 @@ func NewNode() *Node {
 	return &Node{}
 }
 
-func parse_nwk(nwk string) (root *Node) {
-	rt := Node{label: "", length: 0.0, parent: nil}
-	for i, v := range nwk {
-		if v == "(" {
-			
-		}
-	}
-}
+// func parse_nwk(nwk string) (root *Node) {
+// 	rt := Node{label: "", length: 0.0, parent: nil}
+// 	for i, v := range nwk {
+// 		if v == "(" {
 
-((A,B),C,D);
+// 		}
+// 	}
+// }
+
+// ((A,B),C,D);
+
+// borrowing heavily from https://talks.golang.org/2011/lex.slide#20
